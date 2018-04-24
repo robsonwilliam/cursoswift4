@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF6F943D208F613200092052 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F943C208F613200092052 /* ConversionViewController.swift */; };
+		EF8E82DA208E5FBC0052DA5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8E82D9208E5FBC0052DA5C /* AppDelegate.swift */; };
+		EF8E82DC208E5FBC0052DA5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8E82DB208E5FBC0052DA5C /* ViewController.swift */; };
+		EF8E82DF208E5FBC0052DA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8E82DD208E5FBC0052DA5C /* Main.storyboard */; };
+		EF8E82E1208E5FBC0052DA5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8E82E0208E5FBC0052DA5C /* Assets.xcassets */; };
+		EF8E82E4208E5FBC0052DA5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8E82E2208E5FBC0052DA5C /* LaunchScreen.storyboard */; };
+		EF8E82EF208E5FBC0052DA5C /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8E82EE208E5FBC0052DA5C /* WorldTrotterTests.swift */; };
+		EF8E82FA208E5FBC0052DA5C /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8E82F9208E5FBC0052DA5C /* WorldTrotterUITests.swift */; };
+		EF8F449C208F9C25004E3918 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8F449B208F9C25004E3918 /* MapKit.framework */; };
+		EF8F44A4208FA51B004E3918 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F44A3208FA51B004E3918 /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8E82EB208E5FBC0052DA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8E82CE208E5FBC0052DA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8E82D5208E5FBC0052DA5C;
+			remoteInfo = WorldTrotter;
+		};
+		EF8E82F6208E5FBC0052DA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8E82CE208E5FBC0052DA5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8E82D5208E5FBC0052DA5C;
+			remoteInfo = WorldTrotter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF6F943C208F613200092052 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		EF8E82D6208E5FBC0052DA5C /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8E82D9208E5FBC0052DA5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8E82DB208E5FBC0052DA5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8E82DE208E5FBC0052DA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8E82E0208E5FBC0052DA5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8E82E3208E5FBC0052DA5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8E82E5208E5FBC0052DA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8E82EA208E5FBC0052DA5C /* WorldTrotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8E82EE208E5FBC0052DA5C /* WorldTrotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterTests.swift; sourceTree = "<group>"; };
+		EF8E82F0208E5FBC0052DA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8E82F5208E5FBC0052DA5C /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8E82F9208E5FBC0052DA5C /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
+		EF8E82FB208E5FBC0052DA5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8F449B208F9C25004E3918 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EF8F44A3208FA51B004E3918 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8E82D3208E5FBC0052DA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F449C208F9C25004E3918 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8E82E7208E5FBC0052DA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8E82F2208E5FBC0052DA5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8E82CD208E5FBC0052DA5C = {
+			isa = PBXGroup;
+			children = (
+				EF8E82D8208E5FBC0052DA5C /* WorldTrotter */,
+				EF8E82ED208E5FBC0052DA5C /* WorldTrotterTests */,
+				EF8E82F8208E5FBC0052DA5C /* WorldTrotterUITests */,
+				EF8E82D7208E5FBC0052DA5C /* Products */,
+				EF8F449A208F9C25004E3918 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8E82D7208E5FBC0052DA5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8E82D6208E5FBC0052DA5C /* WorldTrotter.app */,
+				EF8E82EA208E5FBC0052DA5C /* WorldTrotterTests.xctest */,
+				EF8E82F5208E5FBC0052DA5C /* WorldTrotterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8E82D8208E5FBC0052DA5C /* WorldTrotter */ = {
+			isa = PBXGroup;
+			children = (
+				EF8E82D9208E5FBC0052DA5C /* AppDelegate.swift */,
+				EF8E82DB208E5FBC0052DA5C /* ViewController.swift */,
+				EF8E82DD208E5FBC0052DA5C /* Main.storyboard */,
+				EF8F44A3208FA51B004E3918 /* MapViewController.swift */,
+				EF6F943C208F613200092052 /* ConversionViewController.swift */,
+				EF8E82E0208E5FBC0052DA5C /* Assets.xcassets */,
+				EF8E82E2208E5FBC0052DA5C /* LaunchScreen.storyboard */,
+				EF8E82E5208E5FBC0052DA5C /* Info.plist */,
+			);
+			path = WorldTrotter;
+			sourceTree = "<group>";
+		};
+		EF8E82ED208E5FBC0052DA5C /* WorldTrotterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8E82EE208E5FBC0052DA5C /* WorldTrotterTests.swift */,
+				EF8E82F0208E5FBC0052DA5C /* Info.plist */,
+			);
+			path = WorldTrotterTests;
+			sourceTree = "<group>";
+		};
+		EF8E82F8208E5FBC0052DA5C /* WorldTrotterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8E82F9208E5FBC0052DA5C /* WorldTrotterUITests.swift */,
+				EF8E82FB208E5FBC0052DA5C /* Info.plist */,
+			);
+			path = WorldTrotterUITests;
+			sourceTree = "<group>";
+		};
+		EF8F449A208F9C25004E3918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F449B208F9C25004E3918 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8E82D5208E5FBC0052DA5C /* WorldTrotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8E82FE208E5FBC0052DA5C /* Build configuration list for PBXNativeTarget "WorldTrotter" */;
+			buildPhases = (
+				EF8E82D2208E5FBC0052DA5C /* Sources */,
+				EF8E82D3208E5FBC0052DA5C /* Frameworks */,
+				EF8E82D4208E5FBC0052DA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldTrotter;
+			productName = WorldTrotter;
+			productReference = EF8E82D6208E5FBC0052DA5C /* WorldTrotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8E82E9208E5FBC0052DA5C /* WorldTrotterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8E8301208E5FBC0052DA5C /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */;
+			buildPhases = (
+				EF8E82E6208E5FBC0052DA5C /* Sources */,
+				EF8E82E7208E5FBC0052DA5C /* Frameworks */,
+				EF8E82E8208E5FBC0052DA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8E82EC208E5FBC0052DA5C /* PBXTargetDependency */,
+			);
+			name = WorldTrotterTests;
+			productName = WorldTrotterTests;
+			productReference = EF8E82EA208E5FBC0052DA5C /* WorldTrotterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF8E82F4208E5FBC0052DA5C /* WorldTrotterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8E8304208E5FBC0052DA5C /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */;
+			buildPhases = (
+				EF8E82F1208E5FBC0052DA5C /* Sources */,
+				EF8E82F2208E5FBC0052DA5C /* Frameworks */,
+				EF8E82F3208E5FBC0052DA5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8E82F7208E5FBC0052DA5C /* PBXTargetDependency */,
+			);
+			name = WorldTrotterUITests;
+			productName = WorldTrotterUITests;
+			productReference = EF8E82F5208E5FBC0052DA5C /* WorldTrotterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8E82CE208E5FBC0052DA5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = T1aluno10;
+				TargetAttributes = {
+					EF8E82D5208E5FBC0052DA5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EF8E82E9208E5FBC0052DA5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8E82D5208E5FBC0052DA5C;
+					};
+					EF8E82F4208E5FBC0052DA5C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8E82D5208E5FBC0052DA5C;
+					};
+				};
+			};
+			buildConfigurationList = EF8E82D1208E5FBC0052DA5C /* Build configuration list for PBXProject "WorldTrotter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8E82CD208E5FBC0052DA5C;
+			productRefGroup = EF8E82D7208E5FBC0052DA5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8E82D5208E5FBC0052DA5C /* WorldTrotter */,
+				EF8E82E9208E5FBC0052DA5C /* WorldTrotterTests */,
+				EF8E82F4208E5FBC0052DA5C /* WorldTrotterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8E82D4208E5FBC0052DA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8E82E4208E5FBC0052DA5C /* LaunchScreen.storyboard in Resources */,
+				EF8E82E1208E5FBC0052DA5C /* Assets.xcassets in Resources */,
+				EF8E82DF208E5FBC0052DA5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8E82E8208E5FBC0052DA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8E82F3208E5FBC0052DA5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8E82D2208E5FBC0052DA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8E82DC208E5FBC0052DA5C /* ViewController.swift in Sources */,
+				EF6F943D208F613200092052 /* ConversionViewController.swift in Sources */,
+				EF8E82DA208E5FBC0052DA5C /* AppDelegate.swift in Sources */,
+				EF8F44A4208FA51B004E3918 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8E82E6208E5FBC0052DA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8E82EF208E5FBC0052DA5C /* WorldTrotterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8E82F1208E5FBC0052DA5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8E82FA208E5FBC0052DA5C /* WorldTrotterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8E82EC208E5FBC0052DA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8E82D5208E5FBC0052DA5C /* WorldTrotter */;
+			targetProxy = EF8E82EB208E5FBC0052DA5C /* PBXContainerItemProxy */;
+		};
+		EF8E82F7208E5FBC0052DA5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8E82D5208E5FBC0052DA5C /* WorldTrotter */;
+			targetProxy = EF8E82F6208E5FBC0052DA5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8E82DD208E5FBC0052DA5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8E82DE208E5FBC0052DA5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8E82E2208E5FBC0052DA5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8E82E3208E5FBC0052DA5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8E82FC208E5FBC0052DA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF8E82FD208E5FBC0052DA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8E82FF208E5FBC0052DA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULU8W3W28L;
+				INFOPLIST_FILE = WorldTrotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robson.william.WorldTrotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF8E8300208E5FBC0052DA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ULU8W3W28L;
+				INFOPLIST_FILE = WorldTrotter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robson.william.WorldTrotter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF8E8302208E5FBC0052DA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldTrotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robson.william.WorldTrotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldTrotter.app/WorldTrotter";
+			};
+			name = Debug;
+		};
+		EF8E8303208E5FBC0052DA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldTrotterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robson.william.WorldTrotterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldTrotter.app/WorldTrotter";
+			};
+			name = Release;
+		};
+		EF8E8305208E5FBC0052DA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldTrotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robson.william.WorldTrotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldTrotter;
+			};
+			name = Debug;
+		};
+		EF8E8306208E5FBC0052DA5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WorldTrotterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.robson.william.WorldTrotterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorldTrotter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8E82D1208E5FBC0052DA5C /* Build configuration list for PBXProject "WorldTrotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8E82FC208E5FBC0052DA5C /* Debug */,
+				EF8E82FD208E5FBC0052DA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8E82FE208E5FBC0052DA5C /* Build configuration list for PBXNativeTarget "WorldTrotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8E82FF208E5FBC0052DA5C /* Debug */,
+				EF8E8300208E5FBC0052DA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8E8301208E5FBC0052DA5C /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8E8302208E5FBC0052DA5C /* Debug */,
+				EF8E8303208E5FBC0052DA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8E8304208E5FBC0052DA5C /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8E8305208E5FBC0052DA5C /* Debug */,
+				EF8E8306208E5FBC0052DA5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8E82CE208E5FBC0052DA5C /* Project object */;
+}
