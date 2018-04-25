@@ -17,6 +17,7 @@ class MapViewController: UIViewController {
     var button2: UIButton!
     var button3: UIButton!
     var locationManager = CLLocationManager.init()
+    var locationNumber = 0
     
     override func loadView() {
         
@@ -70,32 +71,27 @@ class MapViewController: UIViewController {
         centerMapOnLocation(location: initialLocation)
         
         let button = UIButton(type: .custom)
+        let button2 = UIButton(type: .detailDisclosure)
         let buttonWidth = 40
         
         button.frame = CGRect(x: 15,y: 100,width: buttonWidth, height: buttonWidth)
         button.translatesAutoresizingMaskIntoConstraints = false
-        
         button.layer.cornerRadius = 0.3 * button.bounds.size.width
         button.layer.borderWidth = 0.75
         button.layer.borderColor = UIColor.darkGray.cgColor
-        
-        button2 = button
-        button3 = button
-        
         button.layer.backgroundColor = UIColor.lightGray.cgColor
         button.setTitle("○", for: UIControlState())
         button.setTitleColor(UIColor.darkGray, for: UIControlState())
         button.addTarget(self, action: #selector(MapViewController.setLocation(_:)), for: .touchUpInside)
   
+        button2.frame = CGRect(x: 30,y: 160,width: buttonWidth, height: buttonWidth)
+        button2.translatesAutoresizingMaskIntoConstraints = false
+        button2.layer.cornerRadius = 0.3 * button.bounds.size.width
+        button2.layer.borderWidth = 0.75
         button2.layer.backgroundColor = UIColor.green.cgColor
         button2.setTitle("->", for: UIControlState())
         button2.setTitleColor(UIColor.blue, for: UIControlState())
-        button2.addTarget(self, action: #selector(MapViewController.setLocation(_:)), for: .touchUpInside)
-        
-        button3.layer.backgroundColor = UIColor.green.cgColor
-        button3.setTitle("->", for: UIControlState())
-        button3.setTitleColor(UIColor.blue, for: UIControlState())
-        button3.addTarget(self, action: #selector(MapViewController.setLocation(_:)), for: .touchUpInside)
+        //button2.addTarget(self, action: #selector(MapViewController.changeLocation()), for: .touchUpInside)
 
         
         view.addSubview(button)
@@ -106,26 +102,26 @@ class MapViewController: UIViewController {
         button.trailingAnchor.constraint(equalTo: safeButtonArea.trailingAnchor, constant: -10).isActive = true
         //button.heightAnchor.constraint(equalToConstant: 20).isActive = true
 
-        button2.topAnchor.constraint(equalTo: safeButtonArea.topAnchor, constant: 100).isActive = true
-        button2.trailingAnchor.constraint(equalTo: safeButtonArea.trailingAnchor, constant: -10).isActive = true
+        //button2.topAnchor.constraint(equalTo: safeButtonArea.topAnchor, constant: 100).isActive = true
+        //button2.trailingAnchor.constraint(equalTo: safeButtonArea.trailingAnchor, constant: -10).isActive = true
 
         
-        let artwork1 = Artwork(title: "King David Kalakaua",
-                              locationName: "Waikiki Gateway Park",
-                              discipline: "Sculpture",
+        let artwork1 = Artwork(title: "111111",
+                              locationName: "11111",
+                              discipline: "11111",
                               coordinate: CLLocationCoordinate2D(latitude: 21.283921, longitude: -157.831661))
         mapView.addAnnotation(artwork1)
         
-        let artwork2 = Artwork(title: "King David Kalakaua",
-                               locationName: "Waikiki Gateway Park",
-                               discipline: "Sculpture",
-                               coordinate: CLLocationCoordinate2D(latitude: 21.283921, longitude: -157.831661))
+        let artwork2 = Artwork(title: "2222",
+                               locationName: "22222",
+                               discipline: "22222",
+                               coordinate: CLLocationCoordinate2D(latitude: 11.283921, longitude: -17.831661))
         mapView.addAnnotation(artwork2)
         
-        let artwork3 = Artwork(title: "King David Kalakaua",
-                               locationName: "Waikiki Gateway Park",
-                               discipline: "Sculpture",
-                               coordinate: CLLocationCoordinate2D(latitude: 21.283921, longitude: -157.831661))
+        let artwork3 = Artwork(title: "33333",
+                               locationName: "33333",
+                               discipline: "33333",
+                               coordinate: CLLocationCoordinate2D(latitude: 1.283921, longitude: -47.831661))
         mapView.addAnnotation(artwork3)
 
     }
@@ -133,8 +129,7 @@ class MapViewController: UIViewController {
     
     let regionRadius: CLLocationDistance = 1000
     func centerMapOnLocation(location: CLLocation) {
-        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
-                                                                  regionRadius, regionRadius)
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate, regionRadius, regionRadius)
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
@@ -155,6 +150,12 @@ class MapViewController: UIViewController {
             break
         }
     }
+    
+    @objc func changeLocation() {
+        
+
+    }
+    
     
     @objc func setLocation(_ sender: UIButton!) {
         let span = MKCoordinateSpan.init(latitudeDelta: 0.0075, longitudeDelta: 0.0075)
