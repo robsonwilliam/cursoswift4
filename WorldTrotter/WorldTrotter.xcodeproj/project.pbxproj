@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EF6F943D208F613200092052 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6F943C208F613200092052 /* ConversionViewController.swift */; };
+		EF774CDE2090B02200AF9BC6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CDD2090B02200AF9BC6 /* WebViewController.swift */; };
+		EF774CE02090B48700AF9BC6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF774CDF2090B48700AF9BC6 /* WebKit.framework */; };
+		EF774CE22090DBB200AF9BC6 /* artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF774CE12090DBB200AF9BC6 /* artwork.swift */; };
 		EF8E82DA208E5FBC0052DA5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8E82D9208E5FBC0052DA5C /* AppDelegate.swift */; };
 		EF8E82DC208E5FBC0052DA5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8E82DB208E5FBC0052DA5C /* ViewController.swift */; };
 		EF8E82DF208E5FBC0052DA5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8E82DD208E5FBC0052DA5C /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 
 /* Begin PBXFileReference section */
 		EF6F943C208F613200092052 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		EF774CDD2090B02200AF9BC6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		EF774CDF2090B48700AF9BC6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		EF774CE12090DBB200AF9BC6 /* artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artwork.swift; sourceTree = "<group>"; };
 		EF8E82D6208E5FBC0052DA5C /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8E82D9208E5FBC0052DA5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8E82DB208E5FBC0052DA5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF774CE02090B48700AF9BC6 /* WebKit.framework in Frameworks */,
 				EF8F449C208F9C25004E3918 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +116,8 @@
 				EF8E82DB208E5FBC0052DA5C /* ViewController.swift */,
 				EF8E82DD208E5FBC0052DA5C /* Main.storyboard */,
 				EF8F44A3208FA51B004E3918 /* MapViewController.swift */,
+				EF774CE12090DBB200AF9BC6 /* artwork.swift */,
+				EF774CDD2090B02200AF9BC6 /* WebViewController.swift */,
 				EF6F943C208F613200092052 /* ConversionViewController.swift */,
 				EF8E82E0208E5FBC0052DA5C /* Assets.xcassets */,
 				EF8E82E2208E5FBC0052DA5C /* LaunchScreen.storyboard */,
@@ -138,6 +147,7 @@
 		EF8F449A208F9C25004E3918 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF774CDF2090B48700AF9BC6 /* WebKit.framework */,
 				EF8F449B208F9C25004E3918 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -279,7 +289,9 @@
 			files = (
 				EF8E82DC208E5FBC0052DA5C /* ViewController.swift in Sources */,
 				EF6F943D208F613200092052 /* ConversionViewController.swift in Sources */,
+				EF774CE22090DBB200AF9BC6 /* artwork.swift in Sources */,
 				EF8E82DA208E5FBC0052DA5C /* AppDelegate.swift in Sources */,
+				EF774CDE2090B02200AF9BC6 /* WebViewController.swift in Sources */,
 				EF8F44A4208FA51B004E3918 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
