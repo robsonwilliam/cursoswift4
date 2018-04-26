@@ -17,41 +17,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="WdJ-aO-euN">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tc-ii-GfG">
-                                    <rect key="frame" x="8" y="15" width="175.5" height="30"/>
-                                    <state key="normal" title="Edit"/>
-                                    <connections>
-                                        <action selector="toggleEditingMode:" destination="uWe-xK-1SC" eventType="touchUpInside" id="YTe-Bc-xTB"/>
-                                    </connections>
-                                </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cQ-Fo-zJs">
-                                    <rect key="frame" x="191.5" y="15" width="175.5" height="30"/>
-                                    <connections>
-                                        <action selector="addNewItem:" destination="uWe-xK-1SC" eventType="touchUpInside" id="e7d-ce-KDl"/>
-                                    </connections>
-                                </button>
-                            </subviews>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <constraints>
-                                <constraint firstItem="0cQ-Fo-zJs" firstAttribute="top" secondItem="WdJ-aO-euN" secondAttribute="top" constant="15" id="3DK-El-BnI"/>
-                                <constraint firstAttribute="bottom" secondItem="0cQ-Fo-zJs" secondAttribute="bottom" constant="15" id="8tY-TE-wL0"/>
-                                <constraint firstAttribute="trailing" secondItem="0cQ-Fo-zJs" secondAttribute="trailing" constant="8" id="X4y-ha-Jc7"/>
-                                <constraint firstAttribute="bottom" secondItem="7tc-ii-GfG" secondAttribute="bottom" constant="15" id="Xym-90-i1A"/>
-                                <constraint firstItem="0cQ-Fo-zJs" firstAttribute="centerY" secondItem="WdJ-aO-euN" secondAttribute="centerY" id="YXE-jh-Ncb"/>
-                                <constraint firstItem="7tc-ii-GfG" firstAttribute="top" secondItem="WdJ-aO-euN" secondAttribute="top" constant="15" id="a0G-ea-NhQ"/>
-                                <constraint firstItem="0cQ-Fo-zJs" firstAttribute="leading" secondItem="7tc-ii-GfG" secondAttribute="trailing" constant="8" id="dFn-IW-AYu"/>
-                                <constraint firstItem="0cQ-Fo-zJs" firstAttribute="width" secondItem="7tc-ii-GfG" secondAttribute="width" id="e5V-gA-i1n"/>
-                                <constraint firstItem="7tc-ii-GfG" firstAttribute="leading" secondItem="WdJ-aO-euN" secondAttribute="leading" constant="8" id="jgX-6F-AcW"/>
-                                <constraint firstItem="7tc-ii-GfG" firstAttribute="centerY" secondItem="WdJ-aO-euN" secondAttribute="centerY" id="kAu-D7-p4I"/>
-                            </constraints>
-                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="Qhb-g6-j24" detailTextLabel="MdH-GA-GfC" style="IBUITableViewCellStyleValue1" id="uTo-MW-ihb">
-                                <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uTo-MW-ihb" id="5L8-bE-v2M">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
@@ -83,7 +51,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yBY-YL-saL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="40.799999999999997" y="143.47826086956522"/>
+            <point key="canvasLocation" x="41" y="144"/>
         </scene>
     </scenes>
 </document>
