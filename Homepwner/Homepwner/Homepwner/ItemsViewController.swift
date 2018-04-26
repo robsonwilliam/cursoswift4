@@ -7,8 +7,10 @@
 //
 
 import UIKit
-class ItemsViewController: UITableViewController {
+class ItemsViewController: UITableViewController /*, UITableViewDelegate*/ {
     var itemStore: ItemStore!
+    
+    
     @IBAction func addNewItem(_ sender: UIButton) {
         /*
         // Make a new index path for the 0th section, last row
@@ -69,12 +71,20 @@ class ItemsViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Get the height of the status bar
         let statusBarHeight = UIApplication.shared.statusBarFrame.height
         let insets = UIEdgeInsets(top: statusBarHeight, left: 0, bottom: 0, right: 0)
+        //var tableFooterView:UITableView
+        
+        //self.tableView.tableFooterView = tableFooter
         tableView.contentInset = insets
         tableView.scrollIndicatorInsets = insets
     }
+    
+    //func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+     //
+    //}
     
     override func tableView(_ tableView: UITableView,
                             commit editingStyle: UITableViewCellEditingStyle,
@@ -90,7 +100,7 @@ class ItemsViewController: UITableViewController {
             
             let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
             ac.addAction(cancelAction)
-            let deleteAction = UIAlertAction(title: "Delete", style: .destructive,
+            let deleteAction = UIAlertAction(title: NSLocalizedString("Remove", comment: "Removing Item"), style: .destructive,
                                              handler: { (action) -> Void in
                                                 // Remove the item from the store
                                                 self.itemStore.removeItem(item)
