@@ -1,0 +1,74 @@
+Notas de Aula
+
+Cuidado com o Secure Text Entry nos teclados pois não funciona como o Material Design.
+
+Cuidado com o textfield pois ele é também um uiaction.
+
+Atenção com o foco.
+É importante utilizar o becameFirstResponder() no campo onde se deseja colocar o foco.
+
+Para abrir mão ou dar dismiss no teclado, utilizar textField.resignFirstResponder()
+
+Verificar o tapgesture() para dismiss do teclado.
+Pode-se utilizar outra forma - Verificar com o Guga.
+
+
+Delegates:
+
+============
+
+
+Para mapkit
+
+É possível usar os tales do googlemaps   
+
+==============
+
+Estudar (mais de uma vez)
+
+UILayoutGuide
+
+=========
+
+Today a view tem uma matriz de transformação associada a ela.
+
+Toda a matriz tem uma matriz identidade
+
+É possível mudar sem mudar o frame de forma animada
+
+O mecanismo básico de animação é de 2 dimensões.
+
+—
+
+Há um outro mecanismo de animação em baixo nível chamado CORE ANIMATION
+
+===================
+
+Links importantes:
+
+https://cocoapods.org
+
+
+Alamofire is an HTTP networking library written in Swift.
+
+https://github.com/Alamofire/Alamofire
+
+https://www.raywenderlich.com/188427/alamofire-tutorial-getting-started-3
+
+
+
+
+===========
+Cursos
+
+https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120
+
+https://itunes.apple.com/us/course/ios-development-in-swift/id950659946?v0=itunes.com%2Fplymouthswift
+
+https://blog.udacity.com/2015/10/14-essential-swift-ios-resources.html
+
+https://www.hackingwithswift.com
+
+https://www.appcoda.com/swift/#pricing
+
+
