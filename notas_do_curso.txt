@@ -59,7 +59,7 @@ https://www.raywenderlich.com/188427/alamofire-tutorial-getting-started-3
 
 
 ===========
-Cursos
+Cursos e livros
 
 https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120
 
@@ -70,5 +70,21 @@ https://blog.udacity.com/2015/10/14-essential-swift-ios-resources.html
 https://www.hackingwithswift.com
 
 https://www.appcoda.com/swift/#pricing
+
+https://itunes.apple.com/us/book/intro-to-app-development-with-swift/id1118575552?mt=11
+
+https://www.letsbuildthatapp.com/basic-training
+
+https://www.apple.com/swift/playgrounds/
+
+https://itunes.apple.com/us/course/developing-ios-11-apps-with-swift/id1309275316
+
+https://hackernoon.com/the-ultimate-list-of-resources-to-mastering-swift-and-ios-development-2018-edition-3bd2a87ff400
+
+https://github.com/jamessugrue/swift-resources
+
+https://itunes.apple.com/us/course/developing-ios-10-apps-with-swift/id1198467120
+
+https://www.dotnetperls.com/uicolor-swift
 
 
